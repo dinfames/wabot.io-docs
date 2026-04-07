@@ -1,3 +1,8 @@
+---
+title: Webhooks & API
+sidebar_position: 5
+---
+
 # Webhooks & API
 
 For custom integrations, Wabot provides a REST API and webhook endpoints to send messages from any platform.
@@ -51,8 +56,9 @@ Content-Type: application/json
 2. Go to **Settings → API** (or check the Integrations page).
 3. Copy your API key.
 
-!!! warning "Keep your API key secret"
-    Never expose it in client-side code, public repos, or logs.
+:::warning Keep your API key secret
+Never expose it in client-side code, public repos, or logs.
+:::
 
 ---
 
@@ -99,4 +105,4 @@ function onFormSubmit(e) {
 
 ---
 
-**See also:** [Automation](../features/automation.md) · [Integrations Overview](index.md)
+**See also:** [Automation](/docs/features/automation) · [Integrations Overview](/docs/integrations/)

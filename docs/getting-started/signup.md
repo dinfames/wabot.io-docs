@@ -1,3 +1,8 @@
+---
+title: Sign Up & Login
+sidebar_position: 2
+---
+
 # Sign Up & Login
 
 ## Create a New Account
@@ -5,14 +10,15 @@
 1. Go to **[app.wabot.io/login?mode=signup](https://app.wabot.io/login?mode=signup)**.
 2. Click the **Sign Up** tab.
 3. Enter the following:
-    - **Email Address or Username**
-    - **Password** (use a strong one)
-    - **Phone Number** (your business number)
+   - **Email Address or Username**
+   - **Password** (use a strong one)
+   - **Phone Number** (your business number)
 4. Verify your email via the link sent to your inbox.
 5. Log in at **[app.wabot.io/login](https://app.wabot.io/login)**.
 
-!!! tip "Sign in with Google"
-    Wabot supports **Sign in with Google** — click the **Google** button on the login page to skip password setup.
+:::tip Sign in with Google
+Wabot supports **Sign in with Google** — click the **Google** button on the login page to skip password setup.
+:::
 
 ## Login Page Overview
 
@@ -40,8 +46,8 @@ New accounts start with a free trial that includes:
 - Access to basic features
 - Sample quota for testing
 
-When you're ready to scale up, upgrade to one of the paid plans — see [Pricing & Plans](../pricing.md) for details.
+When you're ready to scale up, upgrade to one of the paid plans — see [Pricing & Plans](/docs/pricing) for details.
 
 ---
 
-**Next:** [Dashboard Tour →](dashboard.md)
+**Next:** [Dashboard Tour →](./dashboard)

@@ -1,3 +1,8 @@
+---
+title: Pabbly / Make / FunnelKit
+sidebar_position: 4
+---
+
 # Pabbly / Make / FunnelKit
 
 Connect Wabot with third-party automation platforms to trigger WhatsApp messages from virtually any app.
@@ -7,8 +12,8 @@ Connect Wabot with third-party automation platforms to trigger WhatsApp messages
 1. In Wabot → **Integrations → Pabbly Connect** → click **Settings**.
 2. Copy your Wabot API key and webhook URL.
 3. In Pabbly Connect, create a new workflow:
-    - **Trigger:** Any app (Google Forms, Stripe, Shopify, etc.)
-    - **Action:** Webhooks → POST to Wabot's API endpoint
+   - **Trigger:** Any app (Google Forms, Stripe, Shopify, etc.)
+   - **Action:** Webhooks → POST to Wabot's API endpoint
 4. Map fields: `phone`, `message`, and any custom placeholders.
 5. Test and enable.
 
@@ -16,24 +21,24 @@ Connect Wabot with third-party automation platforms to trigger WhatsApp messages
 
 1. In Wabot → **Integrations → Make** → click **Settings**.
 2. In Make, create a new scenario:
-    - **Trigger module:** Your source app
-    - **Action module:** HTTP → Make a Request
-    - **URL:** Wabot's API endpoint
-    - **Method:** POST
-    - **Headers:** `Authorization: Bearer YOUR_API_KEY`
-    - **Body:** JSON with `phone` and `message`
+   - **Trigger module:** Your source app
+   - **Action module:** HTTP → Make a Request
+   - **URL:** Wabot's API endpoint
+   - **Method:** POST
+   - **Headers:** `Authorization: Bearer YOUR_API_KEY`
+   - **Body:** JSON with `phone` and `message`
 3. Run once to test, then activate.
 
 ## FunnelKit Connector
 
 1. In Wabot → **Integrations → FunnelKit Connector** → click **Settings**.
 2. In FunnelKit Automations (WordPress):
-    - Create a new automation.
-    - Add a trigger (e.g. "Order Created", "Tag Added").
-    - Add an action: **Send WhatsApp via Wabot**.
-    - Configure the message template.
+   - Create a new automation.
+   - Add a trigger (e.g. "Order Created", "Tag Added").
+   - Add an action: **Send WhatsApp via Wabot**.
+   - Configure the message template.
 3. Save and activate.
 
 ---
 
-**See also:** [Webhooks & API](webhooks.md) · [Automation](../features/automation.md)
+**See also:** [Webhooks & API](./webhooks) · [Automation](/docs/features/automation)

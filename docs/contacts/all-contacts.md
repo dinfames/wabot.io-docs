@@ -1,12 +1,15 @@
+---
+title: Contacts
+sidebar_position: 2
+---
+
 # Contacts
 
 Contacts is the central directory of every person who has interacted with your Wabot-connected WhatsApp numbers.
 
 ## Where to Find It
 
-Sidebar → **GENERAL → Contacts**
-
-URL: `https://app.wabot.io/dashboard/contacts`
+Sidebar → **GENERAL → Contacts** — `https://app.wabot.io/dashboard/contacts`
 
 ## Tabs
 
@@ -57,4 +60,4 @@ Labels are WhatsApp-native tags (like "new lead", "VIP", "paid"). They sync from
 
 ---
 
-**See also:** [Audience & Groups](audience.md) · [Live Chat](../features/live-chat.md)
+**See also:** [Audience & Groups](/docs/contacts/audience) · [Live Chat](/docs/features/live-chat)

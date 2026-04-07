@@ -1,12 +1,15 @@
+---
+title: Autoresponder
+sidebar_position: 5
+---
+
 # Autoresponder
 
 Autoresponder sends automatic replies based on keywords your customers type. Perfect for handling greetings, FAQs, pricing inquiries, and common questions without using AI credits.
 
 ## Where to Find It
 
-Sidebar → **CORE → Autoresponder**
-
-URL: `https://app.wabot.io/dashboard/autoresponder`
+Sidebar → **CORE → Autoresponder** — `https://app.wabot.io/dashboard/autoresponder`
 
 ## Prerequisites
 
@@ -36,83 +39,94 @@ Below, you define keyword → reply rules.
 
 1. Click **Add Rule** (or **Create**).
 2. Fill in:
-    - **Keyword(s)** — comma-separated (e.g. `hi, hello, hai, helo`)
-    - **Match type:**
-        - **Exact** — entire message must equal the keyword
-        - **Contains** — message contains the keyword anywhere
-        - **Starts with** — message begins with the keyword
-    - **Case sensitivity** — on/off
-    - **Reply message** — the text to send back
-    - **Media attachment** (optional) — image, PDF, etc.
-    - **Next action** (optional):
-        - Add a label to the contact
-        - Add to a group
-        - Trigger an automation
+   - **Keyword(s)** — comma-separated (e.g. `hi, hello, hai, helo`)
+   - **Match type:**
+     - **Exact** — entire message must equal the keyword
+     - **Contains** — message contains the keyword anywhere
+     - **Starts with** — message begins with the keyword
+   - **Case sensitivity** — on/off
+   - **Reply message** — the text to send back
+   - **Media attachment** (optional) — image, PDF, etc.
+   - **Next action** (optional):
+     - Add a label to the contact
+     - Add to a group
+     - Trigger an automation
 3. Save and enable the rule.
 
 ---
 
 ## Common Use Cases
 
-=== "Greeting"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-    **Keywords:** `hi, hello, hai, helo, assalamualaikum, waalaikumussalam`
+<Tabs>
+<TabItem value="greeting" label="Greeting" default>
 
-    **Match type:** Contains
+**Keywords:** `hi, hello, hai, helo, assalamualaikum, waalaikumussalam`
 
-    **Reply:**
-    ```
-    Hi! Selamat datang ke {store_name}.
-    Saya boleh bantu anda dengan:
-    1. Senarai produk — taip "produk"
-    2. Harga & promosi — taip "harga"
-    3. Lokasi & waktu — taip "lokasi"
-    4. Cakap dengan admin — taip "admin"
-    ```
+**Match type:** Contains
 
-=== "Pricing Inquiry"
+**Reply:**
+```
+Hi! Selamat datang ke {store_name}.
+Saya boleh bantu anda dengan:
+1. Senarai produk — taip "produk"
+2. Harga & promosi — taip "harga"
+3. Lokasi & waktu — taip "lokasi"
+4. Cakap dengan admin — taip "admin"
+```
 
-    **Keywords:** `harga, price, berapa, cost, how much`
+</TabItem>
+<TabItem value="pricing" label="Pricing">
 
-    **Match type:** Contains
+**Keywords:** `harga, price, berapa, cost, how much`
 
-    **Reply:** Attach your price list PDF + a short intro message.
+**Match type:** Contains
 
-=== "Office Hours"
+**Reply:** Attach your price list PDF + a short intro message.
 
-    **Keywords:** `waktu, jam, bila buka, opening, hours`
+</TabItem>
+<TabItem value="hours" label="Office Hours">
 
-    **Reply:**
-    ```
-    Waktu operasi kami:
-    Isnin–Jumaat: 9 pagi – 6 petang
-    Sabtu: 9 pagi – 1 petang
-    Ahad: Tutup
+**Keywords:** `waktu, jam, bila buka, opening, hours`
 
-    Untuk tempahan luar waktu, sila ketuk "tempahan".
-    ```
+**Reply:**
+```
+Waktu operasi kami:
+Isnin–Jumaat: 9 pagi – 6 petang
+Sabtu: 9 pagi – 1 petang
+Ahad: Tutup
 
-=== "Thank You / Acknowledgment"
+Untuk tempahan luar waktu, sila ketuk "tempahan".
+```
 
-    **Keywords:** `terima kasih, thanks, thank you, tq`
+</TabItem>
+<TabItem value="thanks" label="Thank You">
 
-    **Reply:**
-    ```
-    Sama-sama! Jika ada sebarang soalan lain, sila beritahu kami. 😊
-    ```
+**Keywords:** `terima kasih, thanks, thank you, tq`
 
-=== "Stop / Unsubscribe"
+**Reply:**
+```
+Sama-sama! Jika ada sebarang soalan lain, sila beritahu kami. 😊
+```
 
-    **Keywords:** `stop, unsubscribe, berhenti, sudah`
+</TabItem>
+<TabItem value="stop" label="Stop / Unsubscribe">
 
-    **Match type:** Exact
+**Keywords:** `stop, unsubscribe, berhenti, sudah`
 
-    **Reply:**
-    ```
-    Anda telah berhenti melanggan. Anda tidak akan menerima mesej dari kami lagi. Terima kasih.
-    ```
+**Match type:** Exact
 
-    **Next action:** Add label `unsubscribed` + remove from all broadcast groups.
+**Reply:**
+```
+Anda telah berhenti melanggan. Anda tidak akan menerima mesej dari kami lagi. Terima kasih.
+```
+
+**Next action:** Add label `unsubscribed` + remove from all broadcast groups.
+
+</TabItem>
+</Tabs>
 
 ---
 
@@ -153,4 +167,4 @@ You can adjust this flow by disabling specific stages per account in **Settings*
 
 ---
 
-**See also:** [Chatbots](chatbots.md) · [Live Chat](live-chat.md) · [Automation](automation.md)
+**See also:** [Chatbots](./chatbots) · [Live Chat](./live-chat) · [Automation](./automation)

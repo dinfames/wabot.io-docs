@@ -1,12 +1,15 @@
+---
+title: Automation
+sidebar_position: 4
+---
+
 # Automation
 
 Automation lets you build no-code workflows that run when a webhook is called or when a label changes on WhatsApp. It's Wabot's most powerful feature for chaining actions together.
 
 ## Where to Find It
 
-Sidebar → **CORE → Automation**
-
-URL: `https://app.wabot.io/dashboard/automation`
+Sidebar → **CORE → Automation** — `https://app.wabot.io/dashboard/automation`
 
 ## The Automation Dashboard
 
@@ -39,8 +42,8 @@ Click **Create** at the top right to go to `/dashboard/automation/new`. The form
 - **Automation Name \*** — e.g. "Welcome New Lead"
 - **Description** — internal notes
 - **Account Type:**
-    - **Unofficial API**
-    - **Official API**
+  - **Unofficial API**
+  - **Official API**
 - **WhatsApp Account \*** — pick from the dropdown
 - **Status** — Enable or disable
 
@@ -48,28 +51,36 @@ Click **Create** at the top right to go to `/dashboard/automation/new`. The form
 
 Choose one:
 
-=== "Webhook"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-    **Use case:** Triggered by external webhook calls from forms, CRM, e-commerce platforms, custom apps.
+<Tabs>
+<TabItem value="webhook" label="Webhook" default>
 
-    - The webhook URL is generated **after** you create the automation
-    - You can then paste it into Google Forms, Stripe, Typeform, Formidable, etc.
-    - External systems `POST` data to this URL to trigger a new run
+**Use case:** Triggered by external webhook calls from forms, CRM, e-commerce platforms, custom apps.
 
-=== "Label"
+- The webhook URL is generated **after** you create the automation
+- You can then paste it into Google Forms, Stripe, Typeform, Formidable, etc.
+- External systems `POST` data to this URL to trigger a new run
 
-    **Use case:** Triggered when a label is added or removed from a contact on WhatsApp.
+</TabItem>
+<TabItem value="label" label="Label">
 
-    - Pick a label name (e.g. `new-lead`, `vip`)
-    - Choose trigger direction: **on add**, **on remove**, or both
-    - Every time that label changes on a contact, the automation fires
+**Use case:** Triggered when a label is added or removed from a contact on WhatsApp.
+
+- Pick a label name (e.g. `new-lead`, `vip`)
+- Choose trigger direction: **on add**, **on remove**, or both
+- Every time that label changes on a contact, the automation fires
+
+</TabItem>
+</Tabs>
 
 ### 3. Advanced Settings
 
 - **Run Once Per Contact** — prevents re-running if the same contact re-triggers
 - **Error Handling:**
-    - **Skip action with errors** (continue to next action)
-    - **Stop automation on error**
+  - **Skip action with errors** (continue to next action)
+  - **Stop automation on error**
 
 Click **Create & Add Actions** — you'll be taken to the flow builder to add actions.
 
@@ -116,14 +127,14 @@ flowchart TD
 2. Copy the generated webhook URL.
 3. In your website form or Zapier, configure a POST to that URL on submit.
 4. Add actions:
-    - Send Message: "Hi {name}, thanks for your interest!"
-    - Wait: 30 minutes
-    - Send Message (with PDF attachment): "Here's our product brochure."
-    - Wait: 1 day
-    - Condition: If label = `new-lead`
-        - True → Send Message: "Here's 10% off: SAVE10"
-        - False → End Flow
-    - Add Label: `nurtured`
+   - Send Message: "Hi \{name\}, thanks for your interest!"
+   - Wait: 30 minutes
+   - Send Message (with PDF attachment): "Here's our product brochure."
+   - Wait: 1 day
+   - Condition: If label = `new-lead`
+     - True → Send Message: "Here's 10% off: SAVE10"
+     - False → End Flow
+   - Add Label: `nurtured`
 5. Enable the automation.
 
 ---
@@ -184,4 +195,4 @@ Use this to debug flows and ensure nothing fires silently.
 
 ---
 
-**See also:** [Webhooks & API](../integrations/webhooks.md) · [Chatbots](chatbots.md) · [Broadcast](broadcast.md)
+**See also:** [Webhooks & API](/docs/integrations/webhooks) · [Chatbots](./chatbots) · [Broadcast](./broadcast)

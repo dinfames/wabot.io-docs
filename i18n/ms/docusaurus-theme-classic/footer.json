@@ -1,0 +1,61 @@
+{
+  "link.title.Documentation": {
+    "message": "Dokumentasi",
+    "description": "Footer section title"
+  },
+  "link.title.Wabot.io": {
+    "message": "Wabot.io",
+    "description": "Footer section title"
+  },
+  "link.title.Support": {
+    "message": "Sokongan",
+    "description": "Footer section title"
+  },
+  "link.title.More": {
+    "message": "Lain-lain",
+    "description": "Footer section title"
+  },
+  "link.item.label.Getting Started": {
+    "message": "Mula di Sini",
+    "description": "Footer link"
+  },
+  "link.item.label.Core Features": {
+    "message": "Ciri-ciri Utama",
+    "description": "Footer link"
+  },
+  "link.item.label.Integrations": {
+    "message": "Integrasi",
+    "description": "Footer link"
+  },
+  "link.item.label.Website": {
+    "message": "Laman Web",
+    "description": "Footer link"
+  },
+  "link.item.label.Dashboard": {
+    "message": "Papan Pemuka",
+    "description": "Footer link"
+  },
+  "link.item.label.Pricing": {
+    "message": "Harga",
+    "description": "Footer link"
+  },
+  "link.item.label.WhatsApp Support": {
+    "message": "Sokongan WhatsApp",
+    "description": "Footer link"
+  },
+  "link.item.label.iOS App": {
+    "message": "Aplikasi iOS",
+    "description": "Footer link"
+  },
+  "link.item.label.Android App": {
+    "message": "Aplikasi Android",
+    "description": "Footer link"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Footer link"
+  },
+  "copyright": {
+    "message": "Copyright &copy; 2026 Dokumentasi Wabot.io. Tidak bergabung dengan WhatsApp Inc. atau Team Fames Sdn Bhd."
+  }
+}

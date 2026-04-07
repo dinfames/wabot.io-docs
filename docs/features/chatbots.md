@@ -1,20 +1,24 @@
+---
+title: Chatbots
+sidebar_position: 2
+---
+
 # Chatbots
 
 Wabot Chatbots are AI-powered assistants that handle customer conversations on your WhatsApp number 24/7. They understand context, respond to text/images/voice, and seamlessly hand off to a human when needed.
 
 ## Where to Find It
 
-Sidebar → **CORE → Chatbots**
-
-URL: `https://app.wabot.io/dashboard/chatbots`
+Sidebar → **CORE → Chatbots** — `https://app.wabot.io/dashboard/chatbots`
 
 ## Prerequisites
 
-- At least one **connected WhatsApp account** (see [Connect Account](../getting-started/connect-account.md))
+- At least one **connected WhatsApp account** (see [Connect Account](/docs/getting-started/connect-account))
 - AI credits in your plan (Plus = 3,000/mo, Premier = 10,000/mo, Platinum = 50,000/mo)
 
-!!! info
-    If no account is connected, you'll see *"No instances yet — Connect a WhatsApp account to start managing chatbots."*
+:::info
+If no account is connected, you'll see *"No instances yet — Connect a WhatsApp account to start managing chatbots."*
+:::
 
 ---
 
@@ -23,38 +27,47 @@ URL: `https://app.wabot.io/dashboard/chatbots`
 1. In **Chatbots**, select the WhatsApp account from the **All Account** dropdown at the top.
 2. Click **Create Chatbot** (or **New Bot**).
 3. Fill in the bot details:
-    - **Name** — e.g. "Sales Assistant — Fashion Store"
-    - **Description** — internal notes (optional)
-    - **Language** — Bahasa Melayu, English, mixed, etc.
-    - **Status** — Enabled / Disabled
+   - **Name** — e.g. "Sales Assistant — Fashion Store"
+   - **Description** — internal notes (optional)
+   - **Language** — Bahasa Melayu, English, mixed, etc.
+   - **Status** — Enabled / Disabled
 
 ## Training the Bot
 
 Wabot chatbots are trained on **your own content**, not generic scripts. You can feed the bot:
 
-=== "Knowledge Files"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-    Upload documents that contain your FAQs, product info, and policies:
+<Tabs>
+<TabItem value="knowledge" label="Knowledge Files" default>
 
-    - PDF (product catalogs, brochures)
-    - DOCX (company manuals)
-    - TXT (plain text FAQ lists)
-    - Images (infographics, price lists)
+Upload documents that contain your FAQs, product info, and policies:
 
-    Files count toward your **Storage** quota shown on the Dashboard.
+- PDF (product catalogs, brochures)
+- DOCX (company manuals)
+- TXT (plain text FAQ lists)
+- Images (infographics, price lists)
 
-=== "Persona"
+Files count toward your **Storage** quota shown on the Dashboard.
 
-    Define the bot's tone and style:
+</TabItem>
+<TabItem value="persona" label="Persona">
 
-    - **Name & role** — e.g. "Siti — Customer Service at XYZ Store"
-    - **Tone** — friendly, professional, casual
-    - **Language mix** — "mix Bahasa Melayu and English naturally"
-    - **Do's & Don'ts** — what the bot should never say
+Define the bot's tone and style:
 
-=== "Scripted Flows"
+- **Name & role** — e.g. "Siti — Customer Service at XYZ Store"
+- **Tone** — friendly, professional, casual
+- **Language mix** — "mix Bahasa Melayu and English naturally"
+- **Do's & Don'ts** — what the bot should never say
 
-    For specific scenarios (pricing, order tracking, appointment booking), define exact reply templates that the AI will use verbatim.
+</TabItem>
+<TabItem value="scripted" label="Scripted Flows">
+
+For specific scenarios (pricing, order tracking, appointment booking), define exact reply templates that the AI will use verbatim.
+
+</TabItem>
+</Tabs>
 
 ---
 
@@ -122,4 +135,4 @@ When a conversation needs human attention:
 
 ---
 
-**See also:** [Live Chat](live-chat.md) · [Automation](automation.md) · [Templates](templates.md)
+**See also:** [Live Chat](./live-chat) · [Automation](./automation) · [Templates](./templates)

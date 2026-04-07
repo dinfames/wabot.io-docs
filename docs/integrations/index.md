@@ -1,12 +1,16 @@
+---
+title: Integrations
+sidebar_position: 1
+slug: /integrations/
+---
+
 # Integrations
 
 Wabot connects with external platforms to sync data, trigger messages, and automate workflows.
 
 ## Where to Find It
 
-Sidebar → **GENERAL → Integrations**
-
-URL: `https://app.wabot.io/dashboard/integrations`
+Sidebar → **GENERAL → Integrations** — `https://app.wabot.io/dashboard/integrations`
 
 ## Available Integrations
 
@@ -37,7 +41,7 @@ Most integrations follow the same pattern:
 
 See the sub-pages for detailed setup guides:
 
-- [Google Sheets](google-sheets.md)
-- [WordPress](wordpress.md)
-- [Pabbly / Make / FunnelKit](automation-platforms.md)
-- [Webhooks & API](webhooks.md)
+- [Google Sheets](/docs/integrations/google-sheets)
+- [WordPress](/docs/integrations/wordpress)
+- [Pabbly / Make / FunnelKit](/docs/integrations/automation-platforms)
+- [Webhooks & API](/docs/integrations/webhooks)

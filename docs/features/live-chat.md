@@ -1,12 +1,15 @@
+---
+title: Live Chat
+sidebar_position: 6
+---
+
 # Live Chat
 
 Live Chat is Wabot's shared team inbox — a unified view of every WhatsApp conversation across all your connected accounts. Multiple agents can reply, take over from the AI, tag chats, and use canned responses.
 
 ## Where to Find It
 
-Sidebar → **GENERAL → Live Chat**
-
-URL: `https://app.wabot.io/dashboard/live-chat`
+Sidebar → **GENERAL → Live Chat** — `https://app.wabot.io/dashboard/live-chat`
 
 ## Page Layout
 
@@ -14,7 +17,7 @@ When you open Live Chat, you see:
 
 - **Left sidebar** — conversation list with filters
 - **Main panel** — the selected conversation thread
-- **Right sidebar** *(optional)* — contact info, tags, notes
+- **Right sidebar** _(optional)_ — contact info, tags, notes
 
 On an empty account, you'll see: *"No conversations found — Select a conversation from the sidebar to start chatting with your contacts."*
 
@@ -51,54 +54,66 @@ The message goes out via the connected WhatsApp account — the customer sees it
 
 ## Key Actions per Conversation
 
-=== "Take Over from Bot"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-    If a chatbot is handling the thread and you want to step in:
+<Tabs>
+<TabItem value="takeover" label="Take Over from Bot" default>
 
-    1. Click **Take Over** (or **Disable Bot**).
-    2. The AI stops responding for this thread.
-    3. Reply manually.
-    4. When done, click **Hand Back to Bot** to re-enable AI.
+If a chatbot is handling the thread and you want to step in:
 
-=== "Assign to Teammate"
+1. Click **Take Over** (or **Disable Bot**).
+2. The AI stops responding for this thread.
+3. Reply manually.
+4. When done, click **Hand Back to Bot** to re-enable AI.
 
-    Prevent two agents from replying over each other:
+</TabItem>
+<TabItem value="assign" label="Assign to Teammate">
 
-    1. Click **Assign** in the conversation header.
-    2. Pick a teammate.
-    3. The thread is now owned by them (others see a lock icon).
+Prevent two agents from replying over each other:
 
-=== "Add Tags / Labels"
+1. Click **Assign** in the conversation header.
+2. Pick a teammate.
+3. The thread is now owned by them (others see a lock icon).
 
-    Categorize conversations for reporting and filtering:
+</TabItem>
+<TabItem value="tags" label="Add Tags / Labels">
 
-    1. Click **Tags** (or the label icon).
-    2. Select or create a label: `new lead`, `VIP`, `pricing`, `support`, `closed`.
-    3. Labels carry over to automations and segments.
+Categorize conversations for reporting and filtering:
 
-=== "Use Quick Replies"
+1. Click **Tags** (or the label icon).
+2. Select or create a label: `new lead`, `VIP`, `pricing`, `support`, `closed`.
+3. Labels carry over to automations and segments.
 
-    Insert pre-saved canned responses:
+</TabItem>
+<TabItem value="quickreplies" label="Use Quick Replies">
 
-    1. Click the **Quick Replies** icon or type `/` in the message box.
-    2. Browse your saved templates (from **Templates → Quick Replies**).
-    3. Click one to insert — edit if needed, then send.
+Insert pre-saved canned responses:
 
-=== "Mark as Resolved"
+1. Click the **Quick Replies** icon or type `/` in the message box.
+2. Browse your saved templates (from **Templates → Quick Replies**).
+3. Click one to insert — edit if needed, then send.
 
-    Close a conversation when the customer's issue is solved:
+</TabItem>
+<TabItem value="resolve" label="Mark as Resolved">
 
-    1. Click **Mark as Resolved** (or **Close**).
-    2. The thread moves to the Archived filter.
-    3. Re-opens automatically if the customer replies again.
+Close a conversation when the customer's issue is solved:
 
-=== "Add Note"
+1. Click **Mark as Resolved** (or **Close**).
+2. The thread moves to the Archived filter.
+3. Re-opens automatically if the customer replies again.
 
-    Internal notes only your team sees (not sent to the customer):
+</TabItem>
+<TabItem value="note" label="Add Note">
 
-    1. Click **Notes** in the right sidebar.
-    2. Type context: "Customer asked about refund on order #1234. Awaiting approval from finance."
-    3. Save. Other agents see this next time they open the thread.
+Internal notes only your team sees (not sent to the customer):
+
+1. Click **Notes** in the right sidebar.
+2. Type context: "Customer asked about refund on order #1234. Awaiting approval from finance."
+3. Save. Other agents see this next time they open the thread.
+
+</TabItem>
+</Tabs>
 
 ---
 
@@ -135,11 +150,11 @@ A typical customer-service setup:
 
 You can do all of this from your phone too:
 
-- :fontawesome-brands-apple: **iOS:** [App Store](https://apps.apple.com/my/app/wabot-io/id6758012842)
-- :fontawesome-brands-google-play: **Android:** [Google Play](https://play.google.com/store/apps/details?id=com.wabotapps)
+- **iOS:** [App Store](https://apps.apple.com/my/app/wabot-io/id6758012842)
+- **Android:** [Google Play](https://play.google.com/store/apps/details?id=com.wabotapps)
 
 Same inbox, push notifications for new messages, hand-off control on the go.
 
 ---
 
-**See also:** [Chatbots](chatbots.md) · [Contacts](../contacts/contacts.md) · [Templates](templates.md)
+**See also:** [Chatbots](./chatbots) · [Contacts](/docs/contacts/all-contacts) · [Templates](./templates)

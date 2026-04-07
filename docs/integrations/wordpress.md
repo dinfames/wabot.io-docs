@@ -1,3 +1,8 @@
+---
+title: WordPress Integration
+sidebar_position: 3
+---
+
 # WordPress Integration
 
 Send WhatsApp notifications from your WordPress site — order alerts, form submissions, user registrations, and more.
@@ -7,13 +12,13 @@ Send WhatsApp notifications from your WordPress site — order alerts, form subm
 1. In Wabot, go to **Integrations → WordPress Plugin**.
 2. Note your **API Key** (or generate one from Settings → API).
 3. In your WordPress admin:
-    - Download and install the **Wabot for WordPress** plugin.
-    - Go to **Settings → Wabot**.
-    - Paste your API key.
-    - Select which events trigger WhatsApp messages:
-        - WooCommerce: new order, processing, completed, refunded
-        - Forms: Formidable Forms, Fluent Forms submissions
-        - Users: new registration, password reset
+   - Download and install the **Wabot for WordPress** plugin.
+   - Go to **Settings → Wabot**.
+   - Paste your API key.
+   - Select which events trigger WhatsApp messages:
+     - WooCommerce: new order, processing, completed, refunded
+     - Forms: Formidable Forms, Fluent Forms submissions
+     - Users: new registration, password reset
 4. Customize message templates using placeholders like `{customer_name}`, `{order_id}`, `{total}`.
 5. Save.
 
@@ -21,9 +26,9 @@ Send WhatsApp notifications from your WordPress site — order alerts, form subm
 
 Common templates:
 
-- **New Order:** "Hi {customer_name}, terima kasih! Pesanan #{order_id} berjumlah RM{total} telah diterima."
-- **Shipped:** "Pesanan #{order_id} telah dihantar. Tracking: {tracking_number}"
-- **Completed:** "Pesanan #{order_id} telah selesai. Terima kasih kerana membeli dengan kami!"
+- **New Order:** "Hi \{customer_name\}, terima kasih! Pesanan #\{order_id\} berjumlah RM\{total\} telah diterima."
+- **Shipped:** "Pesanan #\{order_id\} telah dihantar. Tracking: \{tracking_number\}"
+- **Completed:** "Pesanan #\{order_id\} telah selesai. Terima kasih kerana membeli dengan kami!"
 
 ## Form Submissions
 
@@ -36,4 +41,4 @@ For Formidable Forms or Fluent Forms:
 
 ---
 
-**See also:** [Integrations Overview](index.md) · [Webhooks & API](webhooks.md)
+**See also:** [Integrations Overview](/docs/integrations/) · [Webhooks & API](./webhooks)

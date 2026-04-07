@@ -1,12 +1,15 @@
+---
+title: Audience & Groups
+sidebar_position: 1
+---
+
 # Audience & Groups
 
 Audience is where you organize contacts into groups for broadcasting and segmentation.
 
 ## Where to Find It
 
-Sidebar → **GENERAL → Audience**
-
-URL: `https://app.wabot.io/dashboard/audience`
+Sidebar → **GENERAL → Audience** — `https://app.wabot.io/dashboard/audience`
 
 ## Tabs
 
@@ -38,9 +41,9 @@ Contacts who subscribed via chatbot interactions, widgets, or opt-in links.
 1. Click **Create Group** at the top right.
 2. Enter a **Group Name** (e.g. "March Promo List").
 3. Choose how to add contacts:
-    - **Manual** — type phone numbers one by one
-    - **Import CSV** — upload a CSV file with columns: `phone`, `name`, and optional custom fields
-    - **Import from Google** — sync from Google Contacts (requires Google OAuth in Integrations)
+   - **Manual** — type phone numbers one by one
+   - **Import CSV** — upload a CSV file with columns: `phone`, `name`, and optional custom fields
+   - **Import from Google** — sync from Google Contacts (requires Google OAuth in Integrations)
 4. Save.
 
 Wabot validates each number and marks them as **Valid** or **Invalid**.
@@ -67,4 +70,4 @@ This lets you target precisely. For example: include "All Customers" but exclude
 
 ---
 
-**See also:** [Contacts](contacts.md) · [Broadcast](../features/broadcast.md)
+**See also:** [Contacts](/docs/contacts/all-contacts) · [Broadcast](/docs/features/broadcast)

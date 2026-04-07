@@ -1,3 +1,8 @@
+---
+title: Google Sheets Integration
+sidebar_position: 2
+---
+
 # Google Sheets Integration
 
 Connect Wabot with Google Spreadsheets to log contacts, orders, and conversation data automatically.
@@ -26,4 +31,4 @@ When building an Automation, add an **Update Google Sheet** action:
 
 ---
 
-**See also:** [Automation](../features/automation.md) · [Integrations Overview](index.md)
+**See also:** [Automation](/docs/features/automation) · [Integrations Overview](/docs/integrations/)

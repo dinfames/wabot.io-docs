@@ -1,12 +1,15 @@
+---
+title: File Manager
+sidebar_position: 1
+---
+
 # File Manager
 
 Centralized storage for media files used in messages, chatbot knowledge, and templates.
 
 ## Where to Find It
 
-Sidebar → **GENERAL → File Manager**
-
-URL: `https://app.wabot.io/dashboard/file-manager`
+Sidebar → **GENERAL → File Manager** — `https://app.wabot.io/dashboard/file-manager`
 
 ## What You Can Store
 
@@ -41,6 +44,6 @@ Check your current usage on the **Dashboard → Storage** card.
 ## Best Practices
 
 - Compress images before uploading (use tinypng.com or similar)
-- Keep video lengths short (<2 minutes for marketing clips)
+- Keep video lengths short (under 2 minutes for marketing clips)
 - Delete old broadcast attachments you no longer need
 - Organize files into folders by campaign or product category

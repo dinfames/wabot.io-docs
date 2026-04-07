@@ -1,3 +1,8 @@
+---
+title: Connect Your WhatsApp Account
+sidebar_position: 4
+---
+
 # Connect Your WhatsApp Account
 
 Before you can send messages, broadcast, or run chatbots, you need to connect at least one WhatsApp account to Wabot.
@@ -14,77 +19,83 @@ You'll land on the **Add Account** page with three integration methods.
 
 ## Choose Integration Method
 
-=== "Unofficial API (Popular)"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-    **Best for:** Personal numbers, small to medium businesses.
+<Tabs>
+<TabItem value="unofficial" label="Unofficial API (Popular)" default>
 
-    **Features:**
+**Best for:** Personal numbers, small to medium businesses.
 
-    - :white_check_mark: Quick Setup
-    - :white_check_mark: Personal Account
-    - :white_check_mark: Instant Connection
-    - :white_check_mark: Free to Use
+**Features:**
+- ✅ Quick Setup
+- ✅ Personal Account
+- ✅ Instant Connection
+- ✅ Free to Use
 
-    **How to connect:**
+**How to connect:**
 
-    1. Click the **Unofficial API** card.
-    2. Enter a name for the account (e.g. "Main Sales Number").
-    3. Click **Connect with QR Code** (or **Pairing Code**).
-    4. A QR code appears on screen.
-    5. On your phone, open **WhatsApp → Settings → Linked Devices → Link a Device**.
-    6. Scan the QR code shown on Wabot.
-    7. Wait until the status turns to **Connected / Online** in the dashboard.
+1. Click the **Unofficial API** card.
+2. Enter a name for the account (e.g. "Main Sales Number").
+3. Click **Connect with QR Code** (or **Pairing Code**).
+4. A QR code appears on screen.
+5. On your phone, open **WhatsApp → Settings → Linked Devices → Link a Device**.
+6. Scan the QR code shown on Wabot.
+7. Wait until the status turns to **Connected / Online** in the dashboard.
 
-    !!! tip
-        Use a dedicated business number, not your personal WhatsApp. Once connected, Wabot runs the session on its own servers 24/7 — your phone doesn't need to stay online after the first scan.
+:::tip
+Use a dedicated business number, not your personal WhatsApp. Once connected, Wabot runs the session on its own servers 24/7 — your phone doesn't need to stay online after the first scan.
+:::
 
-=== "Official API"
+</TabItem>
+<TabItem value="official" label="Official API">
 
-    **Best for:** Large enterprises with verified WhatsApp Business accounts.
+**Best for:** Large enterprises with verified WhatsApp Business accounts.
 
-    **Features:**
+**Features:**
+- ✅ Official & Secure
+- ✅ Advanced Features
+- ✅ High Message Limits
+- ✅ Official Meta Support
 
-    - :white_check_mark: Official & Secure
-    - :white_check_mark: Advanced Features
-    - :white_check_mark: High Message Limits
-    - :white_check_mark: Official Meta Support
+**Requirements:**
+- Verified WhatsApp Business Account (WABA) with Meta
+- Access token from Meta Business Manager
+- Phone number ID
+- Pre-approved message templates (for marketing use)
 
-    **Requirements:**
+**How to connect:**
 
-    - Verified WhatsApp Business Account (WABA) with Meta
-    - Access token from Meta Business Manager
-    - Phone number ID
-    - Pre-approved message templates (for marketing use)
+1. Click the **Official API** card.
+2. Enter your WABA credentials:
+   - Access Token
+   - Phone Number ID
+   - Business Account ID
+3. Click **Connect**.
+4. Wabot will verify and activate the account.
+5. Sync your pre-approved templates from **Templates → Pre-Approved → Sync**.
 
-    **How to connect:**
+</TabItem>
+<TabItem value="webchat" label="WebChat">
 
-    1. Click the **Official API** card.
-    2. Enter your WABA credentials:
-        - Access Token
-        - Phone Number ID
-        - Business Account ID
-    3. Click **Connect**.
-    4. Wabot will verify and activate the account.
-    5. Sync your pre-approved templates from **Templates → Pre-Approved → Sync**.
+**Best for:** Website-only AI chatbots and widgets.
 
-=== "WebChat"
+**Features:**
+- ✅ No Setup Required
+- ✅ AI Chatbot & Widget
+- ✅ Instant Activation
+- ✅ Web Only
 
-    **Best for:** Website-only AI chatbots and widgets.
+**How to connect:**
 
-    **Features:**
+1. Click the **WebChat** card.
+2. Enter a name for the widget (e.g. "Website Sales Bot").
+3. Click **Create**.
+4. Copy the embed script and paste it into your website's `<head>` section.
+5. Customize the widget appearance in **Settings**.
 
-    - :white_check_mark: No Setup Required
-    - :white_check_mark: AI Chatbot & Widget
-    - :white_check_mark: Instant Activation
-    - :white_check_mark: Web Only
-
-    **How to connect:**
-
-    1. Click the **WebChat** card.
-    2. Enter a name for the widget (e.g. "Website Sales Bot").
-    3. Click **Create**.
-    4. Copy the embed script and paste it into your website's `<head>` section.
-    5. Customize the widget appearance in **Settings**.
+</TabItem>
+</Tabs>
 
 ---
 
@@ -99,12 +110,12 @@ Once the account shows **Connected**:
 ## Managing Multiple Accounts
 
 - Your plan determines how many WhatsApp numbers you can connect:
-    - **Lite / Basic / Plus** → 1 number
-    - **Premier** → 3 numbers
-    - **Platinum** → 10 numbers
+  - **Lite / Basic / Plus** → 1 number
+  - **Premier** → 3 numbers
+  - **Platinum** → 10 numbers
 - Click **Add Account** again to connect additional numbers.
 - Use the **All Accounts** dropdown on most pages to switch between them.
 
 ---
 
-**Next:** [Send Your First Message →](first-message.md)
+**Next:** [Send Your First Message →](./first-message)

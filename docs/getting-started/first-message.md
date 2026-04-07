@@ -1,3 +1,8 @@
+---
+title: Send Your First Message
+sidebar_position: 5
+---
+
 # Send Your First Message
 
 Now that your WhatsApp account is connected, let's send a test message to make sure everything works.
@@ -19,8 +24,8 @@ Now that your WhatsApp account is connected, let's send a test message to make s
 - **Choose Your Accounts:** Pick **Unofficial API** or **Official API**
 - **Select Accounts:** Pick the connected account
 - **Select Your Audience:**
-    - **Contact Groups** → select a group, or
-    - **Segmented Subscriber** → filter by behavior/profile
+  - **Contact Groups** → select a group, or
+  - **Segmented Subscriber** → filter by behavior/profile
 - **Include Groups:** Choose a test group (create one with just your own number)
 - **Exclude Groups (Optional):** Leave empty
 
@@ -54,10 +59,11 @@ curl -X POST https://app.wabot.io/api/send \
   }'
 ```
 
-!!! note
-    Find your API key and exact endpoint URL in **Settings → API** after logging in.
+:::note
+Find your API key and exact endpoint URL in **Settings → API** after logging in.
+:::
 
-See [Integrations → Webhooks & API](../integrations/webhooks.md) for the full reference.
+See [Integrations → Webhooks & API](/docs/integrations/webhooks) for the full reference.
 
 ---
 
@@ -73,8 +79,8 @@ See [Integrations → Webhooks & API](../integrations/webhooks.md) for the full 
 - Re-scan the QR code from your phone.
 
 ### "No WhatsApp accounts" error
-- Return to [Connect Your WhatsApp Account](connect-account.md) and finish the setup.
+- Return to [Connect Your WhatsApp Account](./connect-account) and finish the setup.
 
 ---
 
-**Next:** Explore the [Core Features →](../features/index.md)
+**Next:** Explore the [Core Features →](/docs/features/)

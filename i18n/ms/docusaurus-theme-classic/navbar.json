@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Dokumentasi Wabot.io",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo Wabot",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "Dokumentasi",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Dashboard": {
+    "message": "Papan Pemuka",
+    "description": "Navbar item with label Dashboard"
+  }
+}

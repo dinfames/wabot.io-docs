@@ -1,3 +1,8 @@
+---
+title: Getting Started — Overview
+sidebar_position: 1
+---
+
 # Getting Started — Overview
 
 Welcome to Wabot! This section walks you through everything you need to get your account up and running in under 15 minutes.
@@ -13,7 +18,7 @@ Wabot.io is an all-in-one WhatsApp automation platform that lets you:
 - Manage conversations from a shared team inbox
 - Set up keyword-based autoresponders
 
-It connects to your WhatsApp via a **QR code scan** (like WhatsApp Web), or via the **Official WhatsApp Business API** (WABA) for larger businesses, or as a **WebChat widget** for website-only AI chatbots.
+It connects to your WhatsApp via a **QR code scan** (like WhatsApp Web), via the **Official WhatsApp Business API** (WABA) for larger businesses, or as a **WebChat widget** for website-only AI chatbots.
 
 ---
 
@@ -38,34 +43,43 @@ flowchart LR
 
 When you **Add Account** in Wabot, you pick one of three integration methods:
 
-=== "Unofficial API (Popular)"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-    **Best for:** Personal numbers, small to medium businesses.
+<Tabs>
+<TabItem value="unofficial" label="Unofficial API (Popular)" default>
 
-    - Connect by scanning a QR code or pairing code
-    - Quick setup — instant connection
-    - Free to use
-    - Standard WhatsApp features with flexible messaging
-    - No pre-approved templates needed
+**Best for:** Personal numbers, small to medium businesses.
 
-=== "Official API"
+- Connect by scanning a QR code or pairing code
+- Quick setup — instant connection
+- Free to use
+- Standard WhatsApp features with flexible messaging
+- No pre-approved templates needed
 
-    **Best for:** Large enterprises with verified WhatsApp Business accounts.
+</TabItem>
+<TabItem value="official" label="Official API">
 
-    - Uses the official Meta WhatsApp Business API (WABA)
-    - Requires an access token from Meta
-    - Advanced features and high message limits
-    - Official Meta support
-    - Requires pre-approved message templates
+**Best for:** Large enterprises with verified WhatsApp Business accounts.
 
-=== "WebChat"
+- Uses the official Meta WhatsApp Business API (WABA)
+- Requires an access token from Meta
+- Advanced features and high message limits
+- Official Meta support
+- Requires pre-approved message templates
 
-    **Best for:** Website-only AI chatbots and widgets.
+</TabItem>
+<TabItem value="webchat" label="WebChat">
 
-    - No WhatsApp connection required
-    - AI Chatbot + widget + playground
-    - Instant activation
-    - Web-only conversations
+**Best for:** Website-only AI chatbots and widgets.
+
+- No WhatsApp connection required
+- AI Chatbot + widget + playground
+- Instant activation
+- Web-only conversations
+
+</TabItem>
+</Tabs>
 
 ---
 
@@ -73,9 +87,9 @@ When you **Add Account** in Wabot, you pick one of three integration methods:
 
 Follow these steps in order:
 
-1. **[Sign Up & Login](signup.md)**
-2. **[Dashboard Tour](dashboard.md)**
-3. **[Connect Your WhatsApp Account](connect-account.md)**
-4. **[Send Your First Message](first-message.md)**
+1. **[Sign Up & Login](./signup)**
+2. **[Dashboard Tour](./dashboard)**
+3. **[Connect Your WhatsApp Account](./connect-account)**
+4. **[Send Your First Message](./first-message)**
 
-Once done, explore the [Core Features](../features/index.md) section.
+Once done, explore the [Core Features](/docs/features/) section.

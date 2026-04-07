@@ -1,12 +1,15 @@
+---
+title: Templates
+sidebar_position: 7
+---
+
 # Templates
 
 Templates are reusable message components that save you time and enforce consistency. Wabot supports **six template types**, each for a different use case.
 
 ## Where to Find It
 
-Sidebar → **GENERAL → Templates**
-
-URL: `https://app.wabot.io/dashboard/templates`
+Sidebar → **GENERAL → Templates** — `https://app.wabot.io/dashboard/templates`
 
 ## The Six Template Types
 
@@ -37,8 +40,9 @@ If you use the **Official WhatsApp Business API**, Meta requires you to pre-regi
 4. Wabot fetches all approved templates from Meta.
 5. They appear in the list, ready to use in Broadcasts and Automations.
 
-!!! info "Need to create a new template?"
-    Template creation happens in **Meta Business Manager**, not in Wabot. Wabot only syncs templates that Meta has already approved. Once approved, they become available here.
+:::info Need to create a new template?
+Template creation happens in **Meta Business Manager**, not in Wabot. Wabot only syncs templates that Meta has already approved. Once approved, they become available here.
+:::
 
 ---
 
@@ -53,8 +57,8 @@ Interactive list messages let customers tap a button and pick from a menu. Great
 - **Footer text** (optional)
 - **Button label** (e.g. "View Menu")
 - **Sections** — group your options:
-    - Section title (e.g. "Main Dishes")
-    - Items — each with title, description, and unique ID
+  - Section title (e.g. "Main Dishes")
+  - Items — each with title, description, and unique ID
 
 **How to create:**
 
@@ -74,8 +78,8 @@ Quick-reply button messages show 1–3 clickable buttons.
 - **Body text**
 - **Footer** (optional)
 - **Buttons** (1–3):
-    - Label (what the button says)
-    - Reply payload (what gets sent back when tapped)
+  - Label (what the button says)
+  - Reply payload (what gets sent back when tapped)
 
 **Use cases:**
 
@@ -155,4 +159,4 @@ Best practices:
 
 ---
 
-**See also:** [Broadcast](broadcast.md) · [Live Chat](live-chat.md) · [Automation](automation.md)
+**See also:** [Broadcast](./broadcast) · [Live Chat](./live-chat) · [Automation](./automation)

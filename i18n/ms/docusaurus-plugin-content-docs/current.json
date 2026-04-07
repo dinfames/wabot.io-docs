@@ -1,0 +1,29 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Mula di Sini",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Core Features": {
+    "message": "Ciri-ciri Utama",
+    "description": "The label for category Core Features in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Core Features.link.generated-index.title": {
+    "message": "Ciri-ciri Utama"
+  },
+  "sidebar.tutorialSidebar.category.Managing Contacts": {
+    "message": "Urus Kenalan",
+    "description": "The label for category Managing Contacts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools & Utilities": {
+    "message": "Alat & Utiliti",
+    "description": "The label for category Tools & Utilities in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Integrations": {
+    "message": "Integrasi",
+    "description": "The label for category Integrations in sidebar tutorialSidebar"
+  }
+}

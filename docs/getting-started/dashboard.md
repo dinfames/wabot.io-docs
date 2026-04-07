@@ -1,3 +1,8 @@
+---
+title: Dashboard Tour
+sidebar_position: 3
+---
+
 # Dashboard Tour
 
 Once you log in, you land on the **Dashboard** at `https://app.wabot.io/dashboard`. This page gives you a snapshot of your account and a step-by-step onboarding wizard.
@@ -45,6 +50,7 @@ Three cards monitor your monthly quotas:
 The left sidebar is organized into five groups:
 
 ### GENERAL
+
 | Item | What it does |
 |------|--------------|
 | **Dashboard** | The main overview page |
@@ -57,6 +63,7 @@ The left sidebar is organized into five groups:
 | **Live Chat** | Shared team inbox for WhatsApp conversations |
 
 ### CORE
+
 | Item | What it does |
 |------|--------------|
 | **Chatbots** | AI-powered chatbot builder |
@@ -68,12 +75,14 @@ The left sidebar is organized into five groups:
 | **Link Generator** | Create click-to-chat links and QR codes |
 
 ### SUPPORT
+
 | Item | What it does |
 |------|--------------|
 | **Settings** | Account & notification settings |
 | **Help** | Opens the support portal |
 
-### ADMIN *(for team owners)*
+### ADMIN _(for team owners)_
+
 | Item | What it does |
 |------|--------------|
 | **Users** | Manage team members and roles |
@@ -104,11 +113,11 @@ Click any step to jump directly to that feature.
 
 ## Top Right Header
 
-- :material-magnify: **Search** (⌘+F)
-- :material-bell: **Notifications**
-- :material-theme-light-dark: **Toggle theme** (light/dark)
+- **Search** (⌘+F)
+- **Notifications**
+- **Toggle theme** (light/dark)
 - **Profile menu** — shows your name and current plan
 
 ---
 
-**Next:** [Connect Your WhatsApp Account →](connect-account.md)
+**Next:** [Connect Your WhatsApp Account →](./connect-account)

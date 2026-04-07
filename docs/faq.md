@@ -1,3 +1,8 @@
+---
+title: Frequently Asked Questions
+sidebar_position: 9
+---
+
 # Frequently Asked Questions
 
 ## General
@@ -12,7 +17,7 @@ You scan a QR code within the Wabot system, just like WhatsApp Web. Once scanned
 
 ### Is Wabot an official WhatsApp product?
 
-No. Wabot is an independent platform built by **Team Fames Sdn Bhd** (Malaysia). It is **not** in partnership with, sponsored by, or endorsed by WhatsApp Inc. WhatsApp and the WhatsApp Logo are trademarks of WhatsApp Inc.
+No. Wabot is an independent platform built by **Team Fames Sdn Bhd** (Malaysia). It is **not** in partnership with, sponsored by, or endorsed by WhatsApp Inc.
 
 Wabot supports two connection methods:
 
@@ -70,7 +75,7 @@ If you exceed your allowance, you can purchase additional credits or upgrade you
 
 Depends on your plan — check the **Admin → Users** page. Team seats are typically:
 
-- **Plus:** 1–3 seats
+- **Plus:** 1-3 seats
 - **Premier:** up to 5 seats
 - **Platinum:** up to 10 seats
 
@@ -108,11 +113,11 @@ Yes. You can send messages via:
 POST https://app.wabot.io/api/send
 ```
 
-See [Webhooks & API](integrations/webhooks.md) for the full reference.
+See [Webhooks & API](/docs/integrations/webhooks) for the full reference.
 
 ### Can I integrate with WooCommerce/Shopify?
 
-Yes. Use the WordPress plugin for WooCommerce, and webhooks for Shopify. See [Integrations](integrations/index.md).
+Yes. Use the WordPress plugin for WooCommerce, and webhooks for Shopify. See [Integrations](/docs/integrations/).
 
 ### Does Wabot support multi-language interfaces?
 

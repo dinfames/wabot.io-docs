@@ -1,12 +1,15 @@
+---
+title: Link Generator
+sidebar_position: 3
+---
+
 # Link Generator
 
 Create custom WhatsApp click-to-chat links and QR codes with pre-filled messages. Perfect for websites, business cards, and marketing materials.
 
 ## Where to Find It
 
-Sidebar → **CORE → Link Generator**
-
-URL: `https://app.wabot.io/dashboard/link-generator`
+Sidebar → **CORE → Link Generator** — `https://app.wabot.io/dashboard/link-generator`
 
 ## How It Works
 

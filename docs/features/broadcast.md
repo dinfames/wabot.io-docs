@@ -1,12 +1,15 @@
+---
+title: Broadcast
+sidebar_position: 3
+---
+
 # Broadcast
 
 Broadcast lets you send the same message (or a personalized variant) to hundreds or thousands of contacts at once — perfect for promotions, product launches, newsletters, and event reminders.
 
 ## Where to Find It
 
-Sidebar → **CORE → Broadcast**
-
-URL: `https://app.wabot.io/dashboard/broadcast`
+Sidebar → **CORE → Broadcast** — `https://app.wabot.io/dashboard/broadcast`
 
 ## The Broadcast List Page
 
@@ -34,12 +37,12 @@ Fill in:
 
 1. **Broadcast Name \*** — an internal label (e.g. "March Promo Blast")
 2. **Choose Your Accounts \*** — pick one of:
-    - **Unofficial API** — standard WhatsApp features with flexible messaging
-    - **Official API** — business verified with template requirements
+   - **Unofficial API** — standard WhatsApp features with flexible messaging
+   - **Official API** — business verified with template requirements
 3. **Select Accounts \*** — click to select the connected WhatsApp account(s)
 4. **Select Your Audience \***:
-    - **Contact Groups** — send to specific groups you've organized
-    - **Segmented Subscriber** — target contacts based on behavior and profile data
+   - **Contact Groups** — send to specific groups you've organized
+   - **Segmented Subscriber** — target contacts based on behavior and profile data
 5. **Include Groups \*** — choose groups to send to
 6. **Exclude Groups (Optional)** — groups to exclude from sending
 
@@ -98,23 +101,23 @@ Click the broadcast row to view the detail page with:
 
 ## Best Practices
 
-!!! success "Do"
+:::tip Do
+- ✅ Get **explicit opt-in consent** before sending promotional messages
+- ✅ Start with small batches (50–100) before scaling to thousands
+- ✅ Segment by relevance — generic messages get blocked
+- ✅ Personalize with `{name}` and contextual fields
+- ✅ Send during business hours in the recipient's timezone
+- ✅ Include a clear CTA (reply, link, phone number)
+- ✅ Provide an opt-out ("reply STOP to unsubscribe")
+:::
 
-    - :white_check_mark: Get **explicit opt-in consent** before sending promotional messages
-    - :white_check_mark: Start with small batches (50–100) before scaling to thousands
-    - :white_check_mark: Segment by relevance — generic messages get blocked
-    - :white_check_mark: Personalize with `{name}` and contextual fields
-    - :white_check_mark: Send during business hours in the recipient's timezone
-    - :white_check_mark: Include a clear CTA (reply, link, phone number)
-    - :white_check_mark: Provide an opt-out ("reply STOP to unsubscribe")
-
-!!! danger "Don't"
-
-    - :x: Send unsolicited bulk messages — your number will get banned
-    - :x: Exceed your plan's monthly message quota
-    - :x: Use identical messages for thousands at once — vary slightly
-    - :x: Blast the same list multiple times per week
-    - :x: Include prohibited content (spam, scams, illegal products)
+:::danger Don't
+- ❌ Send unsolicited bulk messages — your number will get banned
+- ❌ Exceed your plan's monthly message quota
+- ❌ Use identical messages for thousands at once — vary slightly
+- ❌ Blast the same list multiple times per week
+- ❌ Include prohibited content (spam, scams, illegal products)
+:::
 
 ---
 
@@ -128,4 +131,4 @@ Click the broadcast row to view the detail page with:
 
 ---
 
-**See also:** [Audience & Groups](../contacts/audience.md) · [Contacts](../contacts/contacts.md) · [Templates](templates.md)
+**See also:** [Audience & Groups](/docs/contacts/audience) · [Contacts](/docs/contacts/all-contacts) · [Templates](./templates)

@@ -1,36 +1,21 @@
+---
+title: Core Features
+sidebar_position: 1
+slug: /features/
+---
+
 # Core Features
 
 Wabot bundles seven powerful capabilities into one unified dashboard. Each feature is independent but integrates smoothly with the others — you can chain a Chatbot into an Automation, route from an Autoresponder to Live Chat, and broadcast to segments created in Audience.
 
 ## The Seven Pillars
 
-<div class="grid cards" markdown>
-
-- :material-robot: **[Chatbots](chatbots.md)**
-
-    AI-powered bots that answer FAQs, qualify leads, and close sales 24/7.
-
-- :material-bullhorn: **[Broadcast](broadcast.md)**
-
-    Send bulk campaigns to contact groups or segments with scheduling.
-
-- :material-auto-fix: **[Automation](automation.md)**
-
-    Visual workflow builder triggered by webhooks or WhatsApp labels.
-
-- :material-reply-all: **[Autoresponder](autoresponder.md)**
-
-    Keyword-based auto-replies for greetings, FAQs, and quick support.
-
-- :material-chat: **[Live Chat](live-chat.md)**
-
-    Shared team inbox with filters: All, Unread, Widget, Chatbot Active/Inactive, Archived.
-
-- :material-file-document-multiple: **[Templates](templates.md)**
-
-    Reusable message components: pre-approved, lists, buttons, polls, sequences, quick replies.
-
-</div>
+- **[Chatbots](/docs/features/chatbots)** — AI-powered bots that answer FAQs, qualify leads, and close sales 24/7.
+- **[Broadcast](/docs/features/broadcast)** — Send bulk campaigns to contact groups or segments with scheduling.
+- **[Automation](/docs/features/automation)** — Visual workflow builder triggered by webhooks or WhatsApp labels.
+- **[Autoresponder](/docs/features/autoresponder)** — Keyword-based auto-replies for greetings, FAQs, and quick support.
+- **[Live Chat](/docs/features/live-chat)** — Shared team inbox with filters: All, Unread, Widget, Chatbot Active/Inactive, Archived.
+- **[Templates](/docs/features/templates)** — Reusable message components: pre-approved, lists, buttons, polls, sequences, quick replies.
 
 ## Choosing the Right Feature
 
