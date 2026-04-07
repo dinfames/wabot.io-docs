@@ -13,6 +13,14 @@ Sidebar → **CORE → Chatbots** — `https://app.wabot.io/dashboard/chatbots`
 
 ![Chatbots Page](/img/screenshots/chatbots.png)
 
+When you click on a connected account, you land on the **Chatbot Instance** page. From here you manage AI settings, knowledge files, AI memory, chatbot rules, tools, and feedback gaps:
+
+![Chatbot Instance](/img/screenshots/chatbot-instance.png)
+
+The **Configure Setting** button opens the full chatbot configuration panel covering chatbot mode, AI behavior, AI knowledge, AI features, smart features, AI provider/model, and chatbot settings:
+
+![Chatbot Configure](/img/screenshots/chatbot-configure.png)
+
 ## Prerequisites
 
 - At least one **connected WhatsApp account** (see [Connect Account](/docs/getting-started/connect-account))
