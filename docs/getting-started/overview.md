@@ -7,6 +7,8 @@ sidebar_position: 1
 
 Welcome to Wabot! This section walks you through everything you need to get your account up and running in under 15 minutes.
 
+![Wabot.io Homepage](/img/screenshots/homepage.png)
+
 ## What is Wabot?
 
 Wabot.io is an all-in-one WhatsApp automation platform that lets you:

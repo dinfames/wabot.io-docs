@@ -11,6 +11,8 @@ Audience is where you organize contacts into groups for broadcasting and segment
 
 Sidebar → **GENERAL → Audience** — `https://app.wabot.io/dashboard/audience`
 
+![Audience & Groups Page](/img/screenshots/audience.png)
+
 ## Tabs
 
 The page has two tabs:

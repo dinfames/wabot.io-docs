@@ -5,6 +5,8 @@ sidebar_position: 2
 
 # Sign Up & Login
 
+![Login Page](/img/screenshots/login.png)
+
 ## Create a New Account
 
 1. Go to **[app.wabot.io/login?mode=signup](https://app.wabot.io/login?mode=signup)**.

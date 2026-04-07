@@ -11,6 +11,8 @@ Create custom WhatsApp click-to-chat links and QR codes with pre-filled messages
 
 Sidebar → **CORE → Link Generator** — `https://app.wabot.io/dashboard/link-generator`
 
+![Link Generator Page](/img/screenshots/link-generator.png)
+
 ## How It Works
 
 1. **Select WhatsApp Account** — pick the number the link should open to.

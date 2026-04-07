@@ -11,6 +11,8 @@ Templates are reusable message components that save you time and enforce consist
 
 Sidebar → **GENERAL → Templates** — `https://app.wabot.io/dashboard/templates`
 
+![Templates Page](/img/screenshots/templates.png)
+
 ## The Six Template Types
 
 At the top of the Templates page, you see six cards with counts:

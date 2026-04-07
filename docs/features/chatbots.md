@@ -11,6 +11,8 @@ Wabot Chatbots are AI-powered assistants that handle customer conversations on y
 
 Sidebar → **CORE → Chatbots** — `https://app.wabot.io/dashboard/chatbots`
 
+![Chatbots Page](/img/screenshots/chatbots.png)
+
 ## Prerequisites
 
 - At least one **connected WhatsApp account** (see [Connect Account](/docs/getting-started/connect-account))

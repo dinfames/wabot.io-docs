@@ -11,6 +11,8 @@ Automation lets you build no-code workflows that run when a webhook is called or
 
 Sidebar → **CORE → Automation** — `https://app.wabot.io/dashboard/automation`
 
+![Automation Dashboard](/img/screenshots/automation.png)
+
 ## The Automation Dashboard
 
 When you open Automation, you see stats and a list of all your flows:
@@ -36,6 +38,8 @@ The table columns:
 ## Creating an Automation
 
 Click **Create** at the top right to go to `/dashboard/automation/new`. The form has three sections:
+
+![Create Automation Form](/img/screenshots/automation-new.png)
 
 ### 1. Basic Information
 

@@ -11,6 +11,8 @@ Autoresponder sends automatic replies based on keywords your customers type. Per
 
 Sidebar → **CORE → Autoresponder** — `https://app.wabot.io/dashboard/autoresponder`
 
+![Autoresponder Page](/img/screenshots/autoresponder.png)
+
 ## Prerequisites
 
 You need at least one connected WhatsApp account. On a fresh account, you'll see: *"No WhatsApp accounts yet — Connect a WhatsApp account to configure autoresponder."*

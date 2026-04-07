@@ -12,6 +12,8 @@ _Panduan lengkap untuk Wabot.io — platform automasi WhatsApp serba lengkap._
 
 ---
 
+![Wabot.io Homepage](/img/screenshots/homepage.png)
+
 ## Welcome / Selamat Datang
 
 **Wabot.io** is a WhatsApp automation platform that helps businesses turn conversations into loyal customers — without writing a single line of code. From simple order notifications to AI chatbots that close sales 24/7, Wabot gives you one workspace for sales, support, and automation.

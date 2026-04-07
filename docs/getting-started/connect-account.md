@@ -13,7 +13,11 @@ Before you can send messages, broadcast, or run chatbots, you need to connect at
 2. You'll see a list of your connected accounts. On a fresh account, you'll see: *"No WhatsApp accounts"*.
 3. Click **Add Account** at the top right.
 
+![Accounts Page](/img/screenshots/accounts.png)
+
 You'll land on the **Add Account** page with three integration methods.
+
+![Add Account — Choose Integration Method](/img/screenshots/add-account.png)
 
 ---
 

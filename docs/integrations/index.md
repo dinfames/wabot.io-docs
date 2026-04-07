@@ -12,6 +12,8 @@ Wabot connects with external platforms to sync data, trigger messages, and autom
 
 Sidebar → **GENERAL → Integrations** — `https://app.wabot.io/dashboard/integrations`
 
+![Integrations Page](/img/screenshots/integrations.png)
+
 ## Available Integrations
 
 | Integration | Description |

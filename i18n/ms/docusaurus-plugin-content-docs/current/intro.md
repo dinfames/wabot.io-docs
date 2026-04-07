@@ -8,6 +8,8 @@ slug: /intro
 
 **Panduan lengkap untuk Wabot.io — platform automasi WhatsApp serba lengkap.**
 
+![Laman Utama Wabot.io](/img/screenshots/homepage.png)
+
 ---
 
 ## Selamat Datang

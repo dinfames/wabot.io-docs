@@ -11,6 +11,8 @@ Live Chat is Wabot's shared team inbox — a unified view of every WhatsApp conv
 
 Sidebar → **GENERAL → Live Chat** — `https://app.wabot.io/dashboard/live-chat`
 
+![Live Chat Inbox](/img/screenshots/live-chat.png)
+
 ## Page Layout
 
 When you open Live Chat, you see:

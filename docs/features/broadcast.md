@@ -11,6 +11,8 @@ Broadcast lets you send the same message (or a personalized variant) to hundreds
 
 Sidebar → **CORE → Broadcast** — `https://app.wabot.io/dashboard/broadcast`
 
+![Broadcast List Page](/img/screenshots/broadcast.png)
+
 ## The Broadcast List Page
 
 When you open Broadcast, you see a table with columns:
@@ -30,6 +32,8 @@ At the top right: **Create** button.
 ## Creating a Broadcast
 
 Click **Create** to open the 3-step wizard at `/dashboard/broadcast/new`.
+
+![Broadcast Wizard — Step 1: Choose Audience](/img/screenshots/broadcast-new.png)
 
 ### Step 1 — Choose Audience
 

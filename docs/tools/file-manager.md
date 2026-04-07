@@ -11,6 +11,8 @@ Centralized storage for media files used in messages, chatbot knowledge, and tem
 
 Sidebar → **GENERAL → File Manager** — `https://app.wabot.io/dashboard/file-manager`
 
+![File Manager Page](/img/screenshots/file-manager.png)
+
 ## What You Can Store
 
 - **Images** — JPEG, PNG, GIF (for message attachments, product photos)

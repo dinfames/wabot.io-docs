@@ -11,6 +11,8 @@ Contacts is the central directory of every person who has interacted with your W
 
 Sidebar → **GENERAL → Contacts** — `https://app.wabot.io/dashboard/contacts`
 
+![Contacts Page](/img/screenshots/contacts.png)
+
 ## Tabs
 
 The page has three tabs:

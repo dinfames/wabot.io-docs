@@ -7,6 +7,8 @@ sidebar_position: 1
 
 Selamat datang ke Wabot! Bahagian ini membimbing anda melalui semua yang diperlukan untuk menyediakan akaun dalam masa kurang 15 minit.
 
+![Papan Pemuka Wabot](/img/screenshots/dashboard.png)
+
 ## Apa itu Wabot?
 
 Wabot.io ialah platform automasi WhatsApp serba lengkap yang membolehkan anda:

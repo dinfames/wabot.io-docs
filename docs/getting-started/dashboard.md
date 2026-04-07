@@ -7,6 +7,8 @@ sidebar_position: 3
 
 Once you log in, you land on the **Dashboard** at `https://app.wabot.io/dashboard`. This page gives you a snapshot of your account and a step-by-step onboarding wizard.
 
+![Dashboard Overview](/img/screenshots/dashboard.png)
+
 ## Top Banner
 
 The welcome banner shows:

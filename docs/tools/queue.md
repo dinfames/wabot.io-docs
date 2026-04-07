@@ -11,6 +11,8 @@ View and manage all queued, scheduled, and in-flight messages across your accoun
 
 Sidebar → **CORE → Queue Message** — `https://app.wabot.io/dashboard/queue`
 
+![Queue Message Page](/img/screenshots/queue.png)
+
 ## Filters
 
 At the top of the page:
